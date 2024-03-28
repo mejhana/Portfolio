@@ -8,12 +8,11 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Portfolio Website</title>
+        <title>Portfolio</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -27,11 +26,11 @@
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li> 
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#about" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i> About Me
+                                <i class="uil uil-user nav__icon"></i> About Me
                             </a>
-                        </li> 
+                        </li>  -->
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
@@ -57,53 +56,34 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                <div class="home__container container grid">
+                <div class="home__container container">
                     <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/meghana99/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://github.com/mejhana" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                        </div>
                         <div class="home__img">
-                            <svg class="home__blob "viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
                                 </mask>
                                 <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="12", y="-30", xlink:href="assets/img/propic.png
-                                    "/>
+                                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                                    <image class="home__blob-img" x="30" y="-60" href="assets/img/propic.png"/>
                                 </g>
                             </svg>
                         </div>
-
+            
                         <div class="home__data">
-                            <h1 class=""home__title">Hi, I'm Meghana</h1>
+                            <h1 class="home__title">Hi, I'm Meghana</h1>
                             <h3 class="home__subtitle">AI Engineer</h3>
                             <p class="home__description">I am a software engineer with 4 years of experience in ML, computer vision, and deep generative models.</p>
                             <div class="home__buttons">
                                 <a download="" href="assets/pdf/meghana_resume.pdf" class="button button--flex">
                                     Download CV <i class="uil uil-download-alt button__icon"></i>
                                 </a>
+                            </div>
                         </div>
                     </div>
-                    <!-- <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div> -->
+                </div>
             </section>
+            
 
             <!--==================== ABOUT ME ====================-->
             <section class="about section" id="about">
@@ -111,10 +91,56 @@
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="skills section" id="skills">
-
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span>
+            
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="portfolio__content grid swiper-slide">
+                            <div class="portfolio__segment grid">
+                                <div class="portfolio__img">
+                                    <img src="assets/img/icp.gif" alt="" class="portfolio__img">
+                                </div>
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Surface Registration</h3>
+                                    <p>Morph faces using Delaunay triangulation and 
+                                        affine transformation by using dlib's 68-point landmark detector</p> 
+                                    <a href="#" class="button button--flex button--small portfolio__button">
+                                        View Project
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <div class="portfolio__segment grid">
+                                <div class="portfolio__img">
+                                    <img src="assets/img/face_morph.gif" alt="" class="portfolio__img">
+                                </div>
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Face Morpher</h3>
+                                    <p>Morph faces using Delaunay triangulation and 
+                                        affine transformation by using dlib's 68-point landmark detector</p> 
+                                    <a href="#" class="button button--flex button--small portfolio__button">
+                                        View Project
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
-
+            
             <!--==================== HOBBIES ====================-->
             <section class="qualification section">
 
@@ -148,7 +174,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
